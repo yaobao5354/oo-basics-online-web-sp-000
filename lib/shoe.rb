@@ -7,6 +7,11 @@ class Shoe
     @brand = brand 
   end 
   
-  def brand=(brand)
+  def brand
     @brand 
+  end 
+  
+  def cobble
+    puts("the shoe has been repaired")
+  end 
 end 
